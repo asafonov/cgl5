@@ -5,6 +5,12 @@
 <script src="./lib/plot2d.js"></script>
 <script src="./lib/core.js"></script>
 </head>
-<body onload="plot2DExample('example', '#00ff66');">
-<canvas id="example" width="480" height="320" style="background-color:#333333;" />
+<body onload="">
+<p><canvas id="example" width="480" height="320" style="background-color:#333333;" /></p>
+<p><canvas id="bar_example" width="480" height="320" style="background-color:#333333;" /></p>
+<script>
+printData();
+plot2DExample('example', '#00ff66');
+bar2DExample('bar_example', '#ff6600');
+</script>
 </body>
