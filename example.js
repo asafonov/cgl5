@@ -1,8 +1,7 @@
 var spam = [];
 for (var i=0; i<40; i++) {
-    spam.push(Math.random());
+    spam.push(parseInt(Math.random()*100));
 }
-
 
 function plot2DExample(canvas_id, stroke_style) {
     plot2D(canvas_id, spam, stroke_style);
