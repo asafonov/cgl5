@@ -7,6 +7,10 @@ function plot2DExample(canvas_id, stroke_style) {
     plot2D(canvas_id, spam, stroke_style);
 }
 
+function filledPlot2DExample(canvas_id, stroke_style) {
+    filledPlot2D(canvas_id, spam, stroke_style);
+}
+
 function printData() {
     document.write('<p>Data: '+spam[0]);
     for (var i=1; i<spam.length; i++) {
