@@ -1,6 +1,6 @@
 var spam = [];
 for (var i=0; i<40; i++) {
-    spam.push(parseInt(Math.random()*100));
+    spam.push(Math.sin(2*31415/10000*i/40));
 }
 
 function plot2DExample(canvas_id, stroke_style) {
